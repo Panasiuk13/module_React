@@ -1,0 +1,13 @@
+.header .user {
+    display: flex;
+}
+
+.header .user__name {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header .user__age {
+    font-size: 20px;
+    color: #1cff64;
+}
