@@ -55,7 +55,7 @@ function Header() {
         </div>
 
         </>
-);
+)
 
     return (
         <header className="header">
@@ -65,3 +65,4 @@ function Header() {
 }
 
 export default Header
+
