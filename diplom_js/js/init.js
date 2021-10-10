@@ -1,0 +1,8 @@
+renderCategory();
+
+renderFinancialRecordDate();
+
+renderTotal ();
+
+
+
