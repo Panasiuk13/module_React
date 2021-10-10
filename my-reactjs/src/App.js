@@ -17,30 +17,30 @@ function App() {
         < div >
         Hello React!
 
-    < Header / >
+      < Header />
 
+      < Houmwork />
 
-    < Houmwork / >
+      < Functions />
 
-    < Functions / >
+      < TagsInArray />
 
-    < TagsInArray / >
+      < States />
 
-    < States / >
+      < Inputs />
 
-    < Inputs / >
+      < Textarea />
 
-    < Textarea / >
+      < Checkbox />
 
-    < Checkbox / >
+      < Select />
 
-    < Select / >
-
-    < Radio / >
+      < Radio />
     < /div>
 );
 
 }
 
 export default App;
+
 

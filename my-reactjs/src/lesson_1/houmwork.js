@@ -1,26 +1,26 @@
+import './Houmwork.css';
+
 function Houmwork () {
     let text;
     const isActive = true;
 
 
-    if(isActive){
-        text = '<span>OPEN</span>';
-    } else{
-        text = '<span>CLOSE</span>';
+    if(isActive) {
+        text ='OPEN';
+    }else {
+        text ='CLOSE';
     }
 
     const result =
     <>
-      <div className="child" id={text}>
-        {text}
-      </div>
-      <div className="child">
-        {isActive && text + 'TASK'}
-      </div>
+      <div className="child" id={text}><span>{text}</span></div>
+       <div className="child"><span>{isActive && text + ' TASK'}</span></div>
     </>
 
-    return [result]
-
+    return (result);
 }
 
-export default Houmwork
+export default Houmwork;
+
+
+
