@@ -13,8 +13,10 @@ function Houmwork () {
 
     const result =
     <>
-      <div className="child" id={text}><span>{text}</span></div>
+     <div>
+       <div className="child" id={text}><span>{text}</span></div>
        <div className="child"><span>{isActive && text + ' TASK'}</span></div>
+     </div>
     </>
 
     return (result);
