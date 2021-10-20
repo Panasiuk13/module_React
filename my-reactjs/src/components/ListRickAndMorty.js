@@ -26,7 +26,7 @@ class ListRickAndMorty extends React.Component {
     deletePerson(id) {
         this.setState({
             persons: this.state.persons.filter(person => {
-                return person.id != id
+                return person.id !== id
             })
         })
     }
