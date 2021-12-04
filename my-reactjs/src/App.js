@@ -6,6 +6,9 @@ import {
     Link
 } from 'react-router-dom'
 
+import store from './store/store'
+import {useState} from 'react'
+
 import Home from './components/Home'
 import About from './components/About'
 import ListRickAndMorty from './components/ListRickAndMorty'
@@ -14,8 +17,12 @@ import NoMatch from './components/NoMatch';
 
 
 function App() {
+
+    async function setPass(){}
+    store.dispatch({type: 'SET PASSWORD', value: 123})
     return (
         <Router>
+        <button onclick={setPass}>Enter</button>
         <Link to="/">Home</Link>
         <Link to="/all-persons">All persons</Link>
     <Link to="/about">About</Link>
